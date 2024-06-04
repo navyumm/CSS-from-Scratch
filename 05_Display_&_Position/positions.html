@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;margin: 0;
+            background-color: #353535;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            margin: 5px;
+        }
+        #box1{
+            position: relative;
+            top: 20px;
+            left: 10px;
+            z-index: 3;
+        }
+        #box2{
+            position: absolute;
+            background-color: aquamarine;
+            z-index: 2;
+            left: 30px;
+            top: 20px;
+        }
+
+
+        #box3{
+            position: absolute;
+            background-color: blanchedalmond;
+            top: 10px;
+            left: 300px;
+        }
+        #box4{
+            position: fixed;
+            background-color: brown;
+            bottom: 10px;
+            right: 20px
+        }
+        #box5{
+            position: sticky;
+            background-color: black;
+            top: 20px;
+
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box1" class="box"></div>
+    
+    <div id="box2" class="box"></div>
+    <!-- <div id="box3" class="box"></div>
+    <div id="box4" class="box"></div>
+    <div id="box5" class="box"></div> -->
+    <!-- <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div> -->
+</body>
+</html>

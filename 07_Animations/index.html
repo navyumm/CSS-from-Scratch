@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Transition </title>
+
+    <style>
+        button {
+            height: 50px;
+            width: 200px;
+            background-color: aqua;
+
+
+        }
+
+        button:hover {
+            position: relative;
+            top: 40px;
+            left: 100px;
+            transition-property: all;
+            transition-duration: 10s;
+            transition-timing-function: ease-in;
+            transition-delay: 2s;
+
+
+            background-color: chartreuse;
+        }
+
+        button:active {
+            background-color: blue;
+        }
+
+        button:visited {
+            color: blueviolet;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button>
+
+        <a href="#">hit it up</a>
+
+    </button>
+
+</body>
+
+</html>
