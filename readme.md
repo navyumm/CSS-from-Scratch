@@ -93,7 +93,7 @@
 31. Float Property 
     - float left
     - float right
-    - floa none
+    - float none
 32. What is Flexbox?
     - Flexbox, or Flexible Box Layout, is a CSS layout module that allows you to design flexible and responsive web page layouts by aligning and distributing space among items in a container, even when their size is unknown or dynamic.
 33. Flex Model
